@@ -6,11 +6,11 @@ import plotly.express as px
 import streamlit as st
 
 # data :
-games = pd.read_csv('/Users/antoninlefevre/Downloads/langages_informatiques/Python/Projets/sports_dashboard/datasets_nba/games.csv')
-games_details = pd.read_csv('/Users/antoninlefevre/Downloads/langages_informatiques/Python/Projets/sports_dashboard/datasets_nba/games_details.csv')
-players = pd.read_csv('/Users/antoninlefevre/Downloads/langages_informatiques/Python/Projets/sports_dashboard/datasets_nba/players.csv')
-ranking = pd.read_csv('/Users/antoninlefevre/Downloads/langages_informatiques/Python/Projets/sports_dashboard/datasets_nba/ranking.csv')
-teams = pd.read_csv('/Users/antoninlefevre/Downloads/langages_informatiques/Python/Projets/sports_dashboard/datasets_nba/teams.csv')
+games = pd.read_csv('datasets_nba/games.csv')
+games_details = pd.read_csv('datasets_nba/games_details.csv')
+players = pd.read_csv('datasets_nba/players.csv')
+ranking = pd.read_csv('datasets_nba/ranking.csv')
+teams = pd.read_csv('datasets_nba/teams.csv')
 debut_reg_saison = {
     '2003': '2003-10-28',
     '2004': '2004-11-2',
