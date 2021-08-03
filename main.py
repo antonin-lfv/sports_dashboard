@@ -241,7 +241,7 @@ elif choix_page == "Basketball 🏀":
     choix_page_cat = st.sidebar.selectbox(label="Dashboard", options=PAGES_categories)
 
     if choix_page_cat == "Saisons" :
-        choix_annee = list(debut_reg_saison.keys())
+        choix_annee = list(debut_reg_saison.keys())[::-1]
         select_annee = st.sidebar.selectbox(label="Année", options=choix_annee)
 
         st.markdown('<p class="grand_titre">Dashboard saison ' + select_annee +'</p>', unsafe_allow_html=True)
